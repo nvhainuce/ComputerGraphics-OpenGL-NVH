@@ -1,13 +1,14 @@
-#include <glad/glad.h>
+﻿// Include GLEW
+#include <GL/glew.h>
+//#include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-#include <learnopengl/filesystem.h>
-#include <learnopengl/shader_m.h>
-#include <learnopengl/camera.h>
+#include <Component/shader_m.h>
+#include <Component/camera.h>
 
 #include <iostream>
 
@@ -48,7 +49,7 @@ int main()
 
     // glfw window creation
     // --------------------
-    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "2.2.basic_lighting_specular", NULL, NULL);
     if (window == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -63,11 +64,19 @@ int main()
     // tell GLFW to capture our mouse
     glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
-    // glad: load all OpenGL function pointers
-    // ---------------------------------------
-    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
+    //// glad: load all OpenGL function pointers
+ //// ---------------------------------------
+ //if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
+ //{
+ //    std::cout << "Failed to initialize GLAD" << std::endl;
+ //    return -1;
+ //}
+ //initialize GLEW
+ //Đặt biến glewExperimental về true  (bắt buộc)
+    glewExperimental = GL_TRUE;
+    if (glewInit() != GLEW_OK)
     {
-        std::cout << "Failed to initialize GLAD" << std::endl;
+        std::cout << "Failed to initialize GLEW" << std::endl;
         return -1;
     }
 
@@ -77,8 +86,8 @@ int main()
 
     // build and compile our shader zprogram
     // ------------------------------------
-    Shader lightingShader("2.1.basic_lighting.vs", "2.1.basic_lighting.fs");
-    Shader lightCubeShader("2.1.light_cube.vs", "2.1.light_cube.fs");
+    Shader lightingShader("2.2.basic_lighting.vs", "2.2.basic_lighting.fs");
+    Shader lightCubeShader("2.2.light_cube.vs", "2.2.light_cube.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
@@ -178,6 +187,7 @@ int main()
         lightingShader.setVec3("objectColor", 1.0f, 0.5f, 0.31f);
         lightingShader.setVec3("lightColor", 1.0f, 1.0f, 1.0f);
         lightingShader.setVec3("lightPos", lightPos);
+        lightingShader.setVec3("viewPos", camera.Position);
 
         // view/projection transformations
         glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);

@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6626ba85-8713-470a-bc67-c52ba97b841a}</ProjectGuid>
-    <RootNamespace>My2lighting1colors</RootNamespace>
+    <ProjectGuid>{bed92363-53d3-4803-809a-3429967c34bb}</ProjectGuid>
+    <RootNamespace>_2_1_basic_lighting_diffuse</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>2.lighting__2.1.basic_lighting_diffuse</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -159,13 +160,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="colors.cpp" />
+    <ClCompile Include="basic_lighting_diffuse.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="1-colors.fs" />
-    <None Include="1-colors.vs" />
-    <None Include="1-light_cube.fs" />
-    <None Include="1-light_cube.vs" />
+    <None Include="2.1.basic_lighting.fs" />
+    <None Include="2.1.basic_lighting.vs" />
+    <None Include="2.1.light_cube.fs" />
+    <None Include="2.1.light_cube.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

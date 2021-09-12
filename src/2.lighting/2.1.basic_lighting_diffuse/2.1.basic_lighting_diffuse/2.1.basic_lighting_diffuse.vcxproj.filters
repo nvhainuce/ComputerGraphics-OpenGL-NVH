@@ -15,14 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="colors.cpp">
+    <ClCompile Include="basic_lighting_diffuse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="1-colors.fs" />
-    <None Include="1-colors.vs" />
-    <None Include="1-light_cube.fs" />
-    <None Include="1-light_cube.vs" />
+    <None Include="2.1.basic_lighting.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="2.1.basic_lighting.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="2.1.light_cube.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="2.1.light_cube.vs">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

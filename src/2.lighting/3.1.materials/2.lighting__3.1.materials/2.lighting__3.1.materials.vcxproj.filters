@@ -15,14 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="colors.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <None Include="3.1.light_cube.fs" />
+    <None Include="3.1.light_cube.vs" />
+    <None Include="3.1.materials.fs" />
+    <None Include="3.1.materials.vs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="1-colors.fs" />
-    <None Include="1-colors.vs" />
-    <None Include="1-light_cube.fs" />
-    <None Include="1-light_cube.vs" />
+    <ClCompile Include="materials.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
