@@ -7,11 +7,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo1", "Demo1\Demo1.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.lighting__1.colors", "src\2.lighting\1.colors\2.lighting__1.colors\2.lighting__1.colors.vcxproj", "{6626BA85-8713-470A-BC67-C52BA97B841A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.1.basic_lighting_diffuse", "src\2.lighting\2.1.basic_lighting_diffuse\2.1.basic_lighting_diffuse\2.1.basic_lighting_diffuse.vcxproj", "{BED92363-53D3-4803-809A-3429967C34BB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.lighting__2.1.basic_lighting_diffuse", "src\2.lighting\2.1.basic_lighting_diffuse\2.1.basic_lighting_diffuse\2.1.basic_lighting_diffuse.vcxproj", "{BED92363-53D3-4803-809A-3429967C34BB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.2.basic_lighting_specular", "src\2.lighting\2.2.basic_lighting_specular\2.2.basic_lighting_specular\2.2.basic_lighting_specular.vcxproj", "{315AA21F-DC19-4E25-954E-1F41EE5CB3B2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.lighting__2.2.basic_lighting_specular", "src\2.lighting\2.2.basic_lighting_specular\2.2.basic_lighting_specular\2.2.basic_lighting_specular.vcxproj", "{315AA21F-DC19-4E25-954E-1F41EE5CB3B2}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.lighting__3.1.materials", "src\2.lighting\3.1.materials\2.lighting__3.1.materials\2.lighting__3.1.materials.vcxproj", "{EFA1E5A8-7AA9-44B9-A3D7-2AC9EE964078}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.lighting__4.1.lightingmapsDiffuse", "src\2.lighting\4.1.lighting_maps_diffuse_map\2.lighting__4.1.lightingmapsDiffuse\2.lighting__4.1.lightingmapsDiffuse.vcxproj", "{8E35684E-2F4A-4FB0-8F5F-AFEB61B4A21A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{EFA1E5A8-7AA9-44B9-A3D7-2AC9EE964078}.Release|x64.Build.0 = Release|x64
 		{EFA1E5A8-7AA9-44B9-A3D7-2AC9EE964078}.Release|x86.ActiveCfg = Release|Win32
 		{EFA1E5A8-7AA9-44B9-A3D7-2AC9EE964078}.Release|x86.Build.0 = Release|Win32
+		{8E35684E-2F4A-4FB0-8F5F-AFEB61B4A21A}.Debug|x64.ActiveCfg = Debug|x64
+		{8E35684E-2F4A-4FB0-8F5F-AFEB61B4A21A}.Debug|x64.Build.0 = Debug|x64
+		{8E35684E-2F4A-4FB0-8F5F-AFEB61B4A21A}.Debug|x86.ActiveCfg = Debug|Win32
+		{8E35684E-2F4A-4FB0-8F5F-AFEB61B4A21A}.Debug|x86.Build.0 = Debug|Win32
+		{8E35684E-2F4A-4FB0-8F5F-AFEB61B4A21A}.Release|x64.ActiveCfg = Release|x64
+		{8E35684E-2F4A-4FB0-8F5F-AFEB61B4A21A}.Release|x64.Build.0 = Release|x64
+		{8E35684E-2F4A-4FB0-8F5F-AFEB61B4A21A}.Release|x86.ActiveCfg = Release|Win32
+		{8E35684E-2F4A-4FB0-8F5F-AFEB61B4A21A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
