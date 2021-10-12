@@ -1,4 +1,7 @@
-﻿// Include GLEW
+﻿//khai báo và định thư viện stb_image
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image.h"
+// Include GLEW
 #include <GL/glew.h>
 //#include <glad/glad.h>
 #include <GLFW/glfw3.h>

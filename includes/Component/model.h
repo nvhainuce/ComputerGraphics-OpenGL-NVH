@@ -1,7 +1,10 @@
 #ifndef MODEL_H
 #define MODEL_H
 
-#include <glad/glad.h> 
+// Include GLEW
+#include <GL/glew.h>
+//#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -10,8 +13,8 @@
 #include <assimp/scene.h>
 #include <assimp/postprocess.h>
 
-#include <learnopengl/mesh.h>
-#include <learnopengl/shader.h>
+#include <Component/mesh.h>
+#include <Component/shader.h>
 
 #include <string>
 #include <fstream>

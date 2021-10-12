@@ -1,12 +1,15 @@
 #ifndef MESH_H
 #define MESH_H
 
-#include <glad/glad.h> // holds all OpenGL type declarations
+// Include GLEW
+#include <GL/glew.h>
+//#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 
-#include <learnopengl/shader.h>
+#include <Component/shader.h>
 
 #include <string>
 #include <vector>
