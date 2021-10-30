@@ -19,6 +19,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.model_loading__1.model_lo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.lighting_4.2.specularmap", "src\2.lighting\4.2.lighting_maps_specular_map\2.lighting_4.2.specularmap\2.lighting_4.2.specularmap.vcxproj", "{B62D12E0-1CD4-40BD-9B8B-BB3BE531026C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.1.light_casters_directional", "src\2.lighting\5.1.light_casters_directional\5.1.light_casters_directional\5.1.light_casters_directional.vcxproj", "{DF77025A-1557-422C-A4C9-08AA073C68D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.2.light_casters_pointlight", "src\2.lighting\5.2.light_casters_point\5.2.light_casters_pointlight\5.2.light_casters_pointlight.vcxproj", "{4657B252-5FAE-4F3F-9975-3C212BC757A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +95,22 @@ Global
 		{B62D12E0-1CD4-40BD-9B8B-BB3BE531026C}.Release|x64.Build.0 = Release|x64
 		{B62D12E0-1CD4-40BD-9B8B-BB3BE531026C}.Release|x86.ActiveCfg = Release|Win32
 		{B62D12E0-1CD4-40BD-9B8B-BB3BE531026C}.Release|x86.Build.0 = Release|Win32
+		{DF77025A-1557-422C-A4C9-08AA073C68D0}.Debug|x64.ActiveCfg = Debug|x64
+		{DF77025A-1557-422C-A4C9-08AA073C68D0}.Debug|x64.Build.0 = Debug|x64
+		{DF77025A-1557-422C-A4C9-08AA073C68D0}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF77025A-1557-422C-A4C9-08AA073C68D0}.Debug|x86.Build.0 = Debug|Win32
+		{DF77025A-1557-422C-A4C9-08AA073C68D0}.Release|x64.ActiveCfg = Release|x64
+		{DF77025A-1557-422C-A4C9-08AA073C68D0}.Release|x64.Build.0 = Release|x64
+		{DF77025A-1557-422C-A4C9-08AA073C68D0}.Release|x86.ActiveCfg = Release|Win32
+		{DF77025A-1557-422C-A4C9-08AA073C68D0}.Release|x86.Build.0 = Release|Win32
+		{4657B252-5FAE-4F3F-9975-3C212BC757A2}.Debug|x64.ActiveCfg = Debug|x64
+		{4657B252-5FAE-4F3F-9975-3C212BC757A2}.Debug|x64.Build.0 = Debug|x64
+		{4657B252-5FAE-4F3F-9975-3C212BC757A2}.Debug|x86.ActiveCfg = Debug|Win32
+		{4657B252-5FAE-4F3F-9975-3C212BC757A2}.Debug|x86.Build.0 = Debug|Win32
+		{4657B252-5FAE-4F3F-9975-3C212BC757A2}.Release|x64.ActiveCfg = Release|x64
+		{4657B252-5FAE-4F3F-9975-3C212BC757A2}.Release|x64.Build.0 = Release|x64
+		{4657B252-5FAE-4F3F-9975-3C212BC757A2}.Release|x86.ActiveCfg = Release|Win32
+		{4657B252-5FAE-4F3F-9975-3C212BC757A2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
