@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.1.light_casters_direction
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.2.light_casters_pointlight", "src\2.lighting\5.2.light_casters_point\5.2.light_casters_pointlight\5.2.light_casters_pointlight.vcxproj", "{4657B252-5FAE-4F3F-9975-3C212BC757A2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vidu_ontap_11012021", "5.2.light_casters_pointlight1\5.2.light_casters_pointlight1.vcxproj", "{F58D7C8D-0D00-4DD6-A155-04AF2C9DC369}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{4657B252-5FAE-4F3F-9975-3C212BC757A2}.Release|x64.Build.0 = Release|x64
 		{4657B252-5FAE-4F3F-9975-3C212BC757A2}.Release|x86.ActiveCfg = Release|Win32
 		{4657B252-5FAE-4F3F-9975-3C212BC757A2}.Release|x86.Build.0 = Release|Win32
+		{F58D7C8D-0D00-4DD6-A155-04AF2C9DC369}.Debug|x64.ActiveCfg = Debug|x64
+		{F58D7C8D-0D00-4DD6-A155-04AF2C9DC369}.Debug|x64.Build.0 = Debug|x64
+		{F58D7C8D-0D00-4DD6-A155-04AF2C9DC369}.Debug|x86.ActiveCfg = Debug|Win32
+		{F58D7C8D-0D00-4DD6-A155-04AF2C9DC369}.Debug|x86.Build.0 = Debug|Win32
+		{F58D7C8D-0D00-4DD6-A155-04AF2C9DC369}.Release|x64.ActiveCfg = Release|x64
+		{F58D7C8D-0D00-4DD6-A155-04AF2C9DC369}.Release|x64.Build.0 = Release|x64
+		{F58D7C8D-0D00-4DD6-A155-04AF2C9DC369}.Release|x86.ActiveCfg = Release|Win32
+		{F58D7C8D-0D00-4DD6-A155-04AF2C9DC369}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
